@@ -2,11 +2,21 @@
 I got sick of having to remove junk from my shellcode so I made a script to just clean it all for me.
 
 ## Usage
-(If installed): shellcode-cleaner [-hnrqxs]
+
+(If installed): shellcode-cleaner [-hnqrxs]
 
 (If standalone script): python shellcode-cleaner.py [-hnqrxs]
 
 Running the tool with no arguments will prompt you to paste your shellcode in and will strip it completely of newlines, quotation marks (single AND double), semicolons, and the "\r" as well as "\x" escape character.
+
+## Flags
+-h: Display the help
+-n: Strip newline "\n" characters
+-q: Strip quoation marks- single and double
+-r: Strip "\r" characters
+-x: Strip "\x" escape characters
+-s: Strip semicolons ";"
+Multiple flags can be set allowing you to customize the output however you like.
 
 ## Example
 Shellcode taken from: https://packetstormsecurity.com/files/102847/All-Windows-Null-Free-CreateProcessA-Calc-Shellcode.html for demo purposes.
