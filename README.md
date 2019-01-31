@@ -11,11 +11,17 @@ Running the tool with no arguments will prompt you to paste your shellcode in an
 
 ## Flags
 -h: Display the help
+
 -n: Strip newline "\n" characters
+
 -q: Strip quoation marks- single and double
+
 -r: Strip "\r" characters
+
 -x: Strip "\x" escape characters
+
 -s: Strip semicolons ";"
+
 Multiple flags can be set allowing you to customize the output however you like.
 
 ## Example
