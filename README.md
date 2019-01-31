@@ -16,6 +16,8 @@ Remove newlines, "\r", quotations, and semicolons but keep the "\x":
 shellcode-cleaner -nrqs
 
 (Tool will prompt you to paste your shellcode):
+
+
  "\x31\xdb\x64\x8b\x7b\x30\x8b\x7f"
         "\x0c\x8b\x7f\x1c\x8b\x47\x08\x8b"
         "\x77\x20\x8b\x3f\x80\x7e\x0c\x33"
