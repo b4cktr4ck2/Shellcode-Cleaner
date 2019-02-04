@@ -55,3 +55,7 @@ Tool will prompt you to paste your shellcode. Do so, then hit Control + D.
 
 Now you can paste it into your exploit without needing to organize it further.
 Please report any issues and I'll do my best to fix.
+
+##License
+
+It's under GNU/GPL v3, so have at it. 
