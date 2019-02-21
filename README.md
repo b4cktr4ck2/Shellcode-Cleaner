@@ -10,7 +10,7 @@ I got sick of having to remove junk from my shellcode so I made a script to just
 Running the tool with no arguments will prompt you to paste your shellcode in and will strip it completely of newlines, quotation marks (single AND double), semicolons, and the "\r" as well as "\x" escape character.
 
 ## Flags
--h: Display the help
+-h, --help: Display the help
 
 -n: Strip newline "\n" characters
 
@@ -21,6 +21,12 @@ Running the tool with no arguments will prompt you to paste your shellcode in an
 -x: Strip "\x" escape characters
 
 -s: Strip semicolons ";"
+
+-p: Prepend a percent "%" symbol to hex bytes. EXPERIMENTAL.
+
+--addhex: Prepend "\x" to each of the hex bytes.
+
+--unicode: Prepend a "%u" to each of the hex bytes.
 
 Multiple flags can be set allowing you to customize the output however you like.
 
